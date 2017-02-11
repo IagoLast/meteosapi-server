@@ -4,6 +4,7 @@
   "description": "Rest server providing weather forecast data",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "yarn run test"
   },
   "repository": {
