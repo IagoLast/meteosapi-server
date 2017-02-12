@@ -11,7 +11,7 @@ router.get('/forecast/:id', function(req, res) {
 	const meteosapi = Meteosapi(key);
 	meteosapi.getForecast(req.params.id)
 		.then(data => {
-			cache.put(req.params.id, data, TTL);
+			cache.put(req.originalUrl, data, TTL);
 			res.json(data);
 		})
 		.catch(err => {
@@ -24,7 +24,7 @@ router.get('/simple/:id', function(req, res) {
 	const meteosapi = Meteosapi(key);
 	meteosapi.getSimpleForecast(req.params.id)
 		.then(data => {
-			cache.put(req.params.id, data, TTL);
+			cache.put(req.originalUrl, data, TTL);
 			res.json(data);
 		})
 		.catch(err => {
