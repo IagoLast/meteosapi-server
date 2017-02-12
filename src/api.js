@@ -15,7 +15,7 @@ router.get('/forecast/:id', function(req, res) {
 			res.json(data);
 		})
 		.catch(err => {
-			res.status(500).json(err);
+			res.status(err.statusCode).json(err.statusCode);
 		});
 });
 
@@ -28,7 +28,7 @@ router.get('/simple/:id', function(req, res) {
 			res.json(data);
 		})
 		.catch(err => {
-			res.status(500).json(err);
+			res.status(err.statusCode).json(err.statusCode);
 		});
 });
 
