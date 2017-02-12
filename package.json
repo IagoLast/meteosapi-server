@@ -30,6 +30,7 @@
     "dotenv": "^4.0.0",
     "express": "^4.14.1",
     "memory-cache": "^0.1.6",
-    "meteosapi": "^1.0.1"
+    "meteosapi": "^1.0.1",
+    "meteoscrapi": "^1.0.0"
   }
 }

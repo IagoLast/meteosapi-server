@@ -1,4 +1,6 @@
-const Meteosapi = require('meteosapi');
+// const Meteosapi = require('meteosapi');
+const Meteosapi = require('meteoscrapi'); // Use this only if you don´t have an api key.
+
 const express = require('express');
 const router = express.Router();
 const cache = require('memory-cache');

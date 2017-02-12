@@ -10,8 +10,13 @@ Simple Aemet REST Server
 
     yarn install
 
+Notice that this server can use both [meteosapi](https://github.com/IagoLast/meteosapi) or [meteoscrapi](https://github.com/IagoLast/meteoscrapi) as weather backend.
+
+If you use meteosapi you will require the API key.
+
 ### Get an API key
 Go to the [Aemet OpenData Website](https://opendata.aemet.es/centrodedescargas/altaUsuario?) and follow the instructions to get an API key.
+
 
 ### Crate a .env file
 Since the Aemet doesn´t provide a valid ssl cerfificate nodejs will reject all the requests, to prevent this use `NODE_TLS_REJECT_UNAUTHORIZED=0`.
