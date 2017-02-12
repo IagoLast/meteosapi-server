@@ -1,6 +1,6 @@
 {
   "name": "meteosapi-server",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Rest server providing weather forecast data",
   "main": "index.js",
   "scripts": {
