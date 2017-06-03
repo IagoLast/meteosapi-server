@@ -32,7 +32,7 @@
     "express": "^4.14.1",
     "memory-cache": "^0.1.6",
     "meteosapi": "^1.0.1",
-    "meteoscrapi": "^1.1.0",
+    "meteoscrapi": "^1.1.1",
     "request": "^2.79.0"
   }
 }
