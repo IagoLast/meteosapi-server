@@ -33,6 +33,7 @@
     "memory-cache": "^0.1.6",
     "meteosapi": "^1.0.1",
     "meteoscrapi": "^1.2.1",
+    "newrelic": "^1.40.0",
     "request": "^2.79.0"
   }
 }

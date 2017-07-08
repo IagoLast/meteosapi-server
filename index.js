@@ -1,3 +1,4 @@
+require ('newrelic');
 const assert = require('assert');
 const app = require('express')();
 const api = require('./src/api.js');
